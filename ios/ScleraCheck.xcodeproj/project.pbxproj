@@ -1,0 +1,376 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		24FEA4E94B5FCF2A686369A4 /* ScleraCore in Frameworks */ = {isa = PBXBuildFile; productRef = B5358710E5B5B32237C1E073 /* ScleraCore */; };
+		358A4EE6A48AC51BDDB39CC6 /* Guide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B74DC6BF1E25D383B1A06D9 /* Guide.swift */; };
+		490E89258B35B03E54F72FAA /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12448B892BA60291F1A989D8 /* Store.swift */; };
+		4EC178DCC131932480BC07D7 /* EyeTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F9E8BD88232E26F97A49DD9 /* EyeTracker.swift */; };
+		7DFCE44A54CEC37C141AAA9E /* CheckView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 514B3FE15DBF0E50A11C8CEF /* CheckView.swift */; };
+		BE50B8E54B0F8C239FF2E903 /* CameraController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76C5A70C211712DF376B8A45 /* CameraController.swift */; };
+		E4C645F0D255C53C9D997938 /* CheckSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B453C70883F6C058C7E9A73 /* CheckSession.swift */; };
+		F96601688BB2F3B4A85F3AC2 /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56E3AA6DD008A2FF0CAC3FA1 /* App.swift */; };
+		FB9171911E22E35721BA588C /* HomeViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCD95B9DF7F4116D2EF0F52A /* HomeViews.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		12448B892BA60291F1A989D8 /* Store.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
+		3B74DC6BF1E25D383B1A06D9 /* Guide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Guide.swift; sourceTree = "<group>"; };
+		514B3FE15DBF0E50A11C8CEF /* CheckView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckView.swift; sourceTree = "<group>"; };
+		56E3AA6DD008A2FF0CAC3FA1 /* App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
+		5B453C70883F6C058C7E9A73 /* CheckSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckSession.swift; sourceTree = "<group>"; };
+		76C5A70C211712DF376B8A45 /* CameraController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraController.swift; sourceTree = "<group>"; };
+		7F9E8BD88232E26F97A49DD9 /* EyeTracker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EyeTracker.swift; sourceTree = "<group>"; };
+		94CC4E85D245C45A9B06D336 /* ScleraCore */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ScleraCore; sourceTree = SOURCE_ROOT; };
+		9E34BF307CF07C5460BF3848 /* ScleraCheck.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScleraCheck.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCD95B9DF7F4116D2EF0F52A /* HomeViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViews.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C68DAC16E12CE3AFBA9F9102 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24FEA4E94B5FCF2A686369A4 /* ScleraCore in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0C8AC08BB2589E8802E106C5 = {
+			isa = PBXGroup;
+			children = (
+				DC84DB27E840FE364421F82C /* Packages */,
+				7CD7B324844C2CE7993DEA66 /* ScleraCheck */,
+				7B51C7187221F7DC6A79B237 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7B51C7187221F7DC6A79B237 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9E34BF307CF07C5460BF3848 /* ScleraCheck.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7CD7B324844C2CE7993DEA66 /* ScleraCheck */ = {
+			isa = PBXGroup;
+			children = (
+				56E3AA6DD008A2FF0CAC3FA1 /* App.swift */,
+				76C5A70C211712DF376B8A45 /* CameraController.swift */,
+				5B453C70883F6C058C7E9A73 /* CheckSession.swift */,
+				514B3FE15DBF0E50A11C8CEF /* CheckView.swift */,
+				7F9E8BD88232E26F97A49DD9 /* EyeTracker.swift */,
+				3B74DC6BF1E25D383B1A06D9 /* Guide.swift */,
+				CCD95B9DF7F4116D2EF0F52A /* HomeViews.swift */,
+				12448B892BA60291F1A989D8 /* Store.swift */,
+			);
+			path = ScleraCheck;
+			sourceTree = "<group>";
+		};
+		DC84DB27E840FE364421F82C /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				94CC4E85D245C45A9B06D336 /* ScleraCore */,
+			);
+			name = Packages;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DAC8858911A1822E9632C28B /* ScleraCheck */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F5D6079A2577B61567774D6 /* Build configuration list for PBXNativeTarget "ScleraCheck" */;
+			buildPhases = (
+				15AFA47C944056FFA241F08F /* Sources */,
+				C68DAC16E12CE3AFBA9F9102 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ScleraCheck;
+			packageProductDependencies = (
+				B5358710E5B5B32237C1E073 /* ScleraCore */,
+			);
+			productName = ScleraCheck;
+			productReference = 9E34BF307CF07C5460BF3848 /* ScleraCheck.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		40371C5E92D058756F7EBBB3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					DAC8858911A1822E9632C28B = {
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = AA26EC3E62ECA65821438A9C /* Build configuration list for PBXProject "ScleraCheck" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 0C8AC08BB2589E8802E106C5;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				F85A0BA2C4A5ADC88D8591EB /* XCLocalSwiftPackageReference "ScleraCore" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 7B51C7187221F7DC6A79B237 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DAC8858911A1822E9632C28B /* ScleraCheck */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		15AFA47C944056FFA241F08F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F96601688BB2F3B4A85F3AC2 /* App.swift in Sources */,
+				BE50B8E54B0F8C239FF2E903 /* CameraController.swift in Sources */,
+				E4C645F0D255C53C9D997938 /* CheckSession.swift in Sources */,
+				7DFCE44A54CEC37C141AAA9E /* CheckView.swift in Sources */,
+				4EC178DCC131932480BC07D7 /* EyeTracker.swift in Sources */,
+				358A4EE6A48AC51BDDB39CC6 /* Guide.swift in Sources */,
+				FB9171911E22E35721BA588C /* HomeViews.swift in Sources */,
+				490E89258B35B03E54F72FAA /* Store.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		0A975D22CF28429D23153200 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4TN2UWKGF8;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = ScleraCheck;
+				INFOPLIST_KEY_LSSupportsOpeningDocumentsInPlace = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "ScleraCheck uses the camera to measure the colour of the white of your eye. Images never leave the phone.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIFileSharingEnabled = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.scleracheck.app;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		49596EB302F7F3DA926B4E5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		7117809A509DE65AA027527A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		F59A148D7B6190DDB569CA65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4TN2UWKGF8;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = ScleraCheck;
+				INFOPLIST_KEY_LSSupportsOpeningDocumentsInPlace = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "ScleraCheck uses the camera to measure the colour of the white of your eye. Images never leave the phone.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIFileSharingEnabled = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.scleracheck.app;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3F5D6079A2577B61567774D6 /* Build configuration list for PBXNativeTarget "ScleraCheck" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A975D22CF28429D23153200 /* Debug */,
+				F59A148D7B6190DDB569CA65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		AA26EC3E62ECA65821438A9C /* Build configuration list for PBXProject "ScleraCheck" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49596EB302F7F3DA926B4E5A /* Debug */,
+				7117809A509DE65AA027527A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		F85A0BA2C4A5ADC88D8591EB /* XCLocalSwiftPackageReference "ScleraCore" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ScleraCore;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B5358710E5B5B32237C1E073 /* ScleraCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = ScleraCore;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 40371C5E92D058756F7EBBB3 /* Project object */;
+}

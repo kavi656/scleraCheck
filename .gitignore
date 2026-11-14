@@ -1,0 +1,14 @@
+.gradle/
+build/
+local.properties
+.idea/
+*.iml
+.DS_Store
+captures/
+ScleraCheck-debug.apk
+
+# iOS
+ios/ScleraCore/.build/
+ios/**/xcuserdata/
+ios/build/
+*.xcuserstate

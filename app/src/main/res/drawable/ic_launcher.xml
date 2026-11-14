@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- ScleraCheck icon: NHS-blue disc with a white eye and amber iris. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp" android:height="108dp"
+    android:viewportWidth="108" android:viewportHeight="108">
+    <path android:fillColor="#005EB8" android:pathData="M54,4a50,50 0 1,0 0.1,0z" />
+    <path android:fillColor="#FFFFFF" android:pathData="M14,54 C30,28 78,28 94,54 C78,80 30,80 14,54z" />
+    <path android:fillColor="#C77700" android:pathData="M54,38a16,16 0 1,0 0.1,0z" />
+    <path android:fillColor="#1B1B1B" android:pathData="M54,47a7,7 0 1,0 0.1,0z" />
+    <path android:fillColor="#FFFFFF" android:pathData="M58,44a3,3 0 1,0 0.1,0z" />
+</vector>
