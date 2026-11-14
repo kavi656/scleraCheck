@@ -7,8 +7,3 @@ local.properties
 captures/
 ScleraCheck-debug.apk
 
-# iOS
-ios/ScleraCore/.build/
-ios/**/xcuserdata/
-ios/build/
-*.xcuserstate
